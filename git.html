@@ -1,0 +1,56 @@
+<a href="index.html">regresar</a>
+
+<h2>MINI TUTORIAL GIT</h2>
+<ol>
+    <li>
+        Crea un repositorio GIT vacio en el directorio
+        <pre>
+            >> git init (directorio)
+        </pre>
+    </li>
+    <li>
+        Clona un repositorio desde un servidor Git. 
+        Si no se pasa nombre de directorio se creara con el nombre del repositorio
+        <pre>
+            >> git clone https://www.github.com/usuario/miproyecto.git [nombre_directorio]
+        </pre>
+    </li>
+    <li>
+        Indica que archivos se van a preparar para commit
+        <pre>
+            >> git add (archivos)
+            >> git add .            /* el punto (.) para agregar todos los archivos*/
+        </pre>
+    </li>
+    <li>
+        Realiza un commit con un comentario
+        <pre>
+            >> git commit -m "comentario..."
+        </pre>
+    </li>
+    <li>
+        Sube los cambios a una rama de un repositorio
+        <pre>
+            >> git push (respositorio) (rama)
+        </pre>
+    </li>
+    <li>
+        Descarga los cambios de una rama de un repositorio y las fusiona con cambios locales
+        <pre>
+            >> git pull (repositorio) (rama)
+        </pre>
+    </li>
+    <li>
+        Muestra los archivos modificados en el directorio
+        <pre>
+            >> git status
+        </pre>
+    </li>
+    <li>
+        Seguir el log de un repositorio
+        <pre>
+            >> git log              /*para mayor detalle*/
+            >> git log --oneline    /*menos detalles pero los publica en orden*/
+        </pre>
+    </li>
+</ol>
